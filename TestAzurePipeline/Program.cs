@@ -32,7 +32,8 @@ namespace TestAzurePipeline
             AuthenticationResult result = context.AcquireTokenAsync("https://management.azure.com/", cc).Result;
             ServiceClientCredentials cred = new TokenCredentials(result.AccessToken);
             var client = new DataFactoryManagementClient(cred) { SubscriptionId = subscriptionId };
-            Console.WriteLine("Creating Pipeline run...");
+           client.uri = new uri
+ Console.WriteLine("Creating Pipeline run...");
             CreateRunResponse runResponse = client.Pipelines.CreateRunWithHttpMessagesAsync(resourceGroup, dataFactoryName, pipelineName).Result.Body;
             client.Pipelines.CreateRun(resourceGroup, dataFactoryName, pipelineName);
             
