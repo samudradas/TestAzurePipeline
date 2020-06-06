@@ -15,14 +15,14 @@ namespace TestAzurePipeline
         {
             // String values ----
             // Set variables    
-            string tenantID = "e6fe8367-24af-48c2-a0ee-b5f386408512";
-            string subscriptionId = "44357e6b-77a0-4b60-a817-27e62ffb6fdd";
-            string applicationId = "0da14751-0058-4a91-ae16-b8722b2b74d1";
-            string authenticationKey = "CbA5ryJyhbFi4_g/bmM]VM4-QynEOU1p";
-            string resourceGroup = "RG-Guardian-Development";
-            string region = "Central India";
-            string dataFactoryName = "DataReplication-CRMtoODS-Test";
-            string pipelineName = "DataReplication_AllegationMasterData";
+            string tenantID = "111e6fe8367-24af-48c2-a0ee-b5f386408512";
+            string subscriptionId = "11144357e6b-77a0-4b60-a817-27e62ffb6fdd";
+            string applicationId = "1110da14751-0058-4a91-ae16-b8722b2b74d1";
+            string authenticationKey = "111CbA5ryJyhbFi4_g/bmM]VM4-QynEOU1p";
+            string resourceGroup = "";
+            string region = "";
+            string dataFactoryName = "";
+            string pipelineName = "";
 
 
 
